@@ -1,0 +1,27 @@
+.bookTile {
+  display: block;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  margin: 0;
+  padding: 15px 10px;
+}
+
+.bookTile .imageWrapper,
+.bookTile .detailWrapper {
+  display: inline-block;
+  height: auto;
+  padding: 0 10px;
+}
+.bookTile .detailWrapper p {
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+}
+
+.bookTitle a {
+  font-weight: 300;
+  text-decoration: none;
+}
+.bookTitle a:hover {
+  text-decoration: underline;
+}
