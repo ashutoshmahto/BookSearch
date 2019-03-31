@@ -23,7 +23,7 @@ To get it running:
    
 4. Open the file server/index.js and add GoodReads API key at line number 14 :
 
-  > const key = "<API KEY>"
+   > const key = "<API KEY>"
 
 5. Build the application:
 
@@ -35,7 +35,7 @@ To get it running:
 
 7. Application will be started on Port 3303 and you can hit the URL http://localhost:3303 in browser.
 
-# TODO:
+# Pending Items:
 - Move API Keys and other infos to environment Variable
 - Restructuring the UI and better view
 - Error and Exception Handling
