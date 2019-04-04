@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Simple application to search books through GoodReads API",
   "main": "",
+  "homepage": "https://ashutoshmahto.github.io/BookSearch",
   "scripts": {
     "test": "mocha --require mocha-snapshots --require @babel/register './web/**/*.test.js'",
     "test:coverage": "nyc --reporter=html --reporter=text mocha --require mocha-snapshots --require @babel/register './web/**/*.test.js'",
@@ -10,7 +11,9 @@
     "build:server": "webpack --config webpack.server.js",
     "build:client": "webpack --config webpack.client.js",
     "build": "npm run build:server && npm run build:client",
-    "start": "node build/bundle"
+    "start": "node build/bundle",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
