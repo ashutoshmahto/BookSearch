@@ -11,7 +11,7 @@ import App from "../web/containers/App";
 import reducers from "../web/reducer";
 
 const endpoint = "https://www.goodreads.com";
-const key = "XXXXXXXXXXXX";
+const key = process.env.API_KEY || "XXXXXXXXXXXX";
 const app = express();
 app.use(express.static("public"));
 
@@ -76,7 +76,7 @@ app.get("/book", (req, res) => {
 
 /* Port and listening info below */
 /* might want to set up argv for easily changing the port */
-var port = 3303;
+var port = process.env.PORT || 3303;
 app.listen(port, function() {
   console.log("app listening on port: " + port);
 });
