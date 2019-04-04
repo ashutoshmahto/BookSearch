@@ -1008,19 +1008,20 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
       "children": {
         "type": "ul",
         "props": {
-          "class": "pagination justify-content-center",
+          "className": "pagination justify-content-center",
           "children": [
             {
               "type": "li",
               "props": {
-                "class": "page-item disabled",
+                "className": "page-item disabled",
                 "children": {
                   "type": "a",
                   "props": {
-                    "class": "page-link",
+                    "className": "page-link",
                     "href": "#",
                     "tabindex": "-1",
                     "aria-disabled": "true",
+                    "onClick": "bound handlePrevious",
                     "children": "Previous"
                   },
                   "_store": {}
@@ -1028,79 +1029,86 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               },
               "_store": {}
             },
-            {
-              "type": "li",
-              "props": {
-                "class": "page-item",
-                "children": {
-                  "type": "a",
-                  "props": {
-                    "class": "page-link",
-                    "href": "#",
-                    "children": "1"
-                  },
-                  "_store": {}
-                }
+            [
+              {
+                "type": "li",
+                "props": {
+                  "className": "page-item",
+                  "children": {
+                    "type": "a",
+                    "props": {
+                      "className": "page-link",
+                      "href": "#",
+                      "onClick": "onClick",
+                      "children": 1
+                    },
+                    "_store": {}
+                  }
+                },
+                "_store": {}
               },
-              "_store": {}
-            },
-            {
-              "type": "li",
-              "props": {
-                "class": "page-item",
-                "children": {
-                  "type": "a",
-                  "props": {
-                    "class": "page-link",
-                    "href": "#",
-                    "children": "2"
-                  },
-                  "_store": {}
-                }
+              {
+                "type": "li",
+                "props": {
+                  "className": "page-item",
+                  "children": {
+                    "type": "a",
+                    "props": {
+                      "className": "page-link",
+                      "href": "#",
+                      "onClick": "onClick",
+                      "children": 2
+                    },
+                    "_store": {}
+                  }
+                },
+                "_store": {}
               },
-              "_store": {}
-            },
-            {
-              "type": "li",
-              "props": {
-                "class": "page-item",
-                "children": {
-                  "type": "a",
-                  "props": {
-                    "class": "page-link",
-                    "href": "#",
-                    "children": "3"
-                  },
-                  "_store": {}
-                }
+              {
+                "type": "li",
+                "props": {
+                  "className": "page-item",
+                  "children": {
+                    "type": "a",
+                    "props": {
+                      "className": "page-link",
+                      "href": "#",
+                      "onClick": "onClick",
+                      "children": 3
+                    },
+                    "_store": {}
+                  }
+                },
+                "_store": {}
               },
-              "_store": {}
-            },
+              {
+                "type": "li",
+                "props": {
+                  "className": "page-item",
+                  "children": {
+                    "type": "a",
+                    "props": {
+                      "className": "page-link",
+                      "href": "#",
+                      "onClick": "onClick",
+                      "children": 4
+                    },
+                    "_store": {}
+                  }
+                },
+                "_store": {}
+              }
+            ],
             {
               "type": "li",
               "props": {
-                "class": "page-item",
+                "className": "page-item disabled",
                 "children": {
                   "type": "a",
                   "props": {
-                    "class": "page-link",
+                    "className": "page-link",
                     "href": "#",
-                    "children": "4"
-                  },
-                  "_store": {}
-                }
-              },
-              "_store": {}
-            },
-            {
-              "type": "li",
-              "props": {
-                "class": "page-item",
-                "children": {
-                  "type": "a",
-                  "props": {
-                    "class": "page-link",
-                    "href": "#",
+                    "onClick": "bound handleNext",
                     "children": "Next"
                   },
                   "_store": {}
@@ -1117,19 +1125,20 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
       "nodeType": "host",
       "type": "ul",
       "props": {
-        "class": "pagination justify-content-center",
+        "className": "pagination justify-content-center",
         "children": [
           {
             "type": "li",
             "props": {
-              "class": "page-item disabled",
+              "className": "page-item disabled",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
                   "tabindex": "-1",
                   "aria-disabled": "true",
+                  "onClick": "bound handlePrevious",
                   "children": "Previous"
                 },
                 "_store": {}
@@ -1137,79 +1146,86 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             },
             "_store": {}
           },
-          {
-            "type": "li",
-            "props": {
-              "class": "page-item",
-              "children": {
-                "type": "a",
-                "props": {
-                  "class": "page-link",
-                  "href": "#",
-                  "children": "1"
-                },
-                "_store": {}
-              }
+          [
+            {
+              "type": "li",
+              "props": {
+                "className": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "className": "page-link",
+                    "href": "#",
+                    "onClick": "onClick",
+                    "children": 1
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
             },
-            "_store": {}
-          },
-          {
-            "type": "li",
-            "props": {
-              "class": "page-item",
-              "children": {
-                "type": "a",
-                "props": {
-                  "class": "page-link",
-                  "href": "#",
-                  "children": "2"
-                },
-                "_store": {}
-              }
+            {
+              "type": "li",
+              "props": {
+                "className": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "className": "page-link",
+                    "href": "#",
+                    "onClick": "onClick",
+                    "children": 2
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
             },
-            "_store": {}
-          },
-          {
-            "type": "li",
-            "props": {
-              "class": "page-item",
-              "children": {
-                "type": "a",
-                "props": {
-                  "class": "page-link",
-                  "href": "#",
-                  "children": "3"
-                },
-                "_store": {}
-              }
+            {
+              "type": "li",
+              "props": {
+                "className": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "className": "page-link",
+                    "href": "#",
+                    "onClick": "onClick",
+                    "children": 3
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
             },
-            "_store": {}
-          },
+            {
+              "type": "li",
+              "props": {
+                "className": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "className": "page-link",
+                    "href": "#",
+                    "onClick": "onClick",
+                    "children": 4
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            }
+          ],
           {
             "type": "li",
             "props": {
-              "class": "page-item",
+              "className": "page-item disabled",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "4"
-                },
-                "_store": {}
-              }
-            },
-            "_store": {}
-          },
-          {
-            "type": "li",
-            "props": {
-              "class": "page-item",
-              "children": {
-                "type": "a",
-                "props": {
-                  "class": "page-link",
-                  "href": "#",
+                  "onClick": "bound handleNext",
                   "children": "Next"
                 },
                 "_store": {}
@@ -1224,14 +1240,15 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
           "nodeType": "host",
           "type": "li",
           "props": {
-            "class": "page-item disabled",
+            "className": "page-item disabled",
             "children": {
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
                 "tabindex": "-1",
                 "aria-disabled": "true",
+                "onClick": "bound handlePrevious",
                 "children": "Previous"
               },
               "_store": {}
@@ -1241,10 +1258,11 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "a",
             "props": {
-              "class": "page-link",
+              "className": "page-link",
               "href": "#",
               "tabindex": "-1",
               "aria-disabled": "true",
+              "onClick": "bound handlePrevious",
               "children": "Previous"
             },
             "rendered": "Previous"
@@ -1254,13 +1272,14 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
           "nodeType": "host",
           "type": "li",
           "props": {
-            "class": "page-item",
+            "className": "page-item",
             "children": {
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "1"
+                "onClick": "onClick",
+                "children": 1
               },
               "_store": {}
             }
@@ -1269,24 +1288,26 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "a",
             "props": {
-              "class": "page-link",
+              "className": "page-link",
               "href": "#",
-              "children": "1"
+              "onClick": "onClick",
+              "children": 1
             },
-            "rendered": "1"
+            "rendered": 1
           }
         },
         {
           "nodeType": "host",
           "type": "li",
           "props": {
-            "class": "page-item",
+            "className": "page-item",
             "children": {
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "2"
+                "onClick": "onClick",
+                "children": 2
               },
               "_store": {}
             }
@@ -1295,24 +1316,26 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "a",
             "props": {
-              "class": "page-link",
+              "className": "page-link",
               "href": "#",
-              "children": "2"
+              "onClick": "onClick",
+              "children": 2
             },
-            "rendered": "2"
+            "rendered": 2
           }
         },
         {
           "nodeType": "host",
           "type": "li",
           "props": {
-            "class": "page-item",
+            "className": "page-item",
             "children": {
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "3"
+                "onClick": "onClick",
+                "children": 3
               },
               "_store": {}
             }
@@ -1321,24 +1344,26 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "a",
             "props": {
-              "class": "page-link",
+              "className": "page-link",
               "href": "#",
-              "children": "3"
+              "onClick": "onClick",
+              "children": 3
             },
-            "rendered": "3"
+            "rendered": 3
           }
         },
         {
           "nodeType": "host",
           "type": "li",
           "props": {
-            "class": "page-item",
+            "className": "page-item",
             "children": {
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "4"
+                "onClick": "onClick",
+                "children": 4
               },
               "_store": {}
             }
@@ -1347,23 +1372,25 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "a",
             "props": {
-              "class": "page-link",
+              "className": "page-link",
               "href": "#",
-              "children": "4"
+              "onClick": "onClick",
+              "children": 4
             },
-            "rendered": "4"
+            "rendered": 4
           }
         },
         {
           "nodeType": "host",
           "type": "li",
           "props": {
-            "class": "page-item",
+            "className": "page-item disabled",
             "children": {
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
+                "onClick": "bound handleNext",
                 "children": "Next"
               },
               "_store": {}
@@ -1373,8 +1400,9 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "a",
             "props": {
-              "class": "page-link",
+              "className": "page-link",
               "href": "#",
+              "onClick": "bound handleNext",
               "children": "Next"
             },
             "rendered": "Next"
@@ -1393,19 +1421,20 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
         "nodeType": "host",
         "type": "ul",
         "props": {
-          "class": "pagination justify-content-center",
+          "className": "pagination justify-content-center",
           "children": [
             {
               "type": "li",
               "props": {
-                "class": "page-item disabled",
+                "className": "page-item disabled",
                 "children": {
                   "type": "a",
                   "props": {
-                    "class": "page-link",
+                    "className": "page-link",
                     "href": "#",
                     "tabindex": "-1",
                     "aria-disabled": "true",
+                    "onClick": "bound handlePrevious",
                     "children": "Previous"
                   },
                   "_store": {}
@@ -1413,79 +1442,86 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               },
               "_store": {}
             },
-            {
-              "type": "li",
-              "props": {
-                "class": "page-item",
-                "children": {
-                  "type": "a",
-                  "props": {
-                    "class": "page-link",
-                    "href": "#",
-                    "children": "1"
-                  },
-                  "_store": {}
-                }
+            [
+              {
+                "type": "li",
+                "props": {
+                  "className": "page-item",
+                  "children": {
+                    "type": "a",
+                    "props": {
+                      "className": "page-link",
+                      "href": "#",
+                      "onClick": "onClick",
+                      "children": 1
+                    },
+                    "_store": {}
+                  }
+                },
+                "_store": {}
               },
-              "_store": {}
-            },
-            {
-              "type": "li",
-              "props": {
-                "class": "page-item",
-                "children": {
-                  "type": "a",
-                  "props": {
-                    "class": "page-link",
-                    "href": "#",
-                    "children": "2"
-                  },
-                  "_store": {}
-                }
+              {
+                "type": "li",
+                "props": {
+                  "className": "page-item",
+                  "children": {
+                    "type": "a",
+                    "props": {
+                      "className": "page-link",
+                      "href": "#",
+                      "onClick": "onClick",
+                      "children": 2
+                    },
+                    "_store": {}
+                  }
+                },
+                "_store": {}
               },
-              "_store": {}
-            },
-            {
-              "type": "li",
-              "props": {
-                "class": "page-item",
-                "children": {
-                  "type": "a",
-                  "props": {
-                    "class": "page-link",
-                    "href": "#",
-                    "children": "3"
-                  },
-                  "_store": {}
-                }
+              {
+                "type": "li",
+                "props": {
+                  "className": "page-item",
+                  "children": {
+                    "type": "a",
+                    "props": {
+                      "className": "page-link",
+                      "href": "#",
+                      "onClick": "onClick",
+                      "children": 3
+                    },
+                    "_store": {}
+                  }
+                },
+                "_store": {}
               },
-              "_store": {}
-            },
+              {
+                "type": "li",
+                "props": {
+                  "className": "page-item",
+                  "children": {
+                    "type": "a",
+                    "props": {
+                      "className": "page-link",
+                      "href": "#",
+                      "onClick": "onClick",
+                      "children": 4
+                    },
+                    "_store": {}
+                  }
+                },
+                "_store": {}
+              }
+            ],
             {
               "type": "li",
               "props": {
-                "class": "page-item",
+                "className": "page-item disabled",
                 "children": {
                   "type": "a",
                   "props": {
-                    "class": "page-link",
+                    "className": "page-link",
                     "href": "#",
-                    "children": "4"
-                  },
-                  "_store": {}
-                }
-              },
-              "_store": {}
-            },
-            {
-              "type": "li",
-              "props": {
-                "class": "page-item",
-                "children": {
-                  "type": "a",
-                  "props": {
-                    "class": "page-link",
-                    "href": "#",
+                    "onClick": "bound handleNext",
                     "children": "Next"
                   },
                   "_store": {}
@@ -1500,14 +1536,15 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item disabled",
+              "className": "page-item disabled",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
                   "tabindex": "-1",
                   "aria-disabled": "true",
+                  "onClick": "bound handlePrevious",
                   "children": "Previous"
                 },
                 "_store": {}
@@ -1517,10 +1554,11 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
                 "tabindex": "-1",
                 "aria-disabled": "true",
+                "onClick": "bound handlePrevious",
                 "children": "Previous"
               },
               "rendered": "Previous"
@@ -1530,13 +1568,14 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item",
+              "className": "page-item",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "1"
+                  "onClick": "onClick",
+                  "children": 1
                 },
                 "_store": {}
               }
@@ -1545,24 +1584,26 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "1"
+                "onClick": "onClick",
+                "children": 1
               },
-              "rendered": "1"
+              "rendered": 1
             }
           },
           {
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item",
+              "className": "page-item",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "2"
+                  "onClick": "onClick",
+                  "children": 2
                 },
                 "_store": {}
               }
@@ -1571,24 +1612,26 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "2"
+                "onClick": "onClick",
+                "children": 2
               },
-              "rendered": "2"
+              "rendered": 2
             }
           },
           {
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item",
+              "className": "page-item",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "3"
+                  "onClick": "onClick",
+                  "children": 3
                 },
                 "_store": {}
               }
@@ -1597,24 +1640,26 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "3"
+                "onClick": "onClick",
+                "children": 3
               },
-              "rendered": "3"
+              "rendered": 3
             }
           },
           {
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item",
+              "className": "page-item",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "4"
+                  "onClick": "onClick",
+                  "children": 4
                 },
                 "_store": {}
               }
@@ -1623,23 +1668,25 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "4"
+                "onClick": "onClick",
+                "children": 4
               },
-              "rendered": "4"
+              "rendered": 4
             }
           },
           {
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item",
+              "className": "page-item disabled",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
+                  "onClick": "bound handleNext",
                   "children": "Next"
                 },
                 "_store": {}
@@ -1649,8 +1696,9 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
+                "onClick": "bound handleNext",
                 "children": "Next"
               },
               "rendered": "Next"
@@ -1660,7 +1708,7 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
       },
       "type": "ul",
       "props": {
-        "class": "pagination justify-content-center"
+        "className": "pagination justify-content-center"
       },
       "children": [
         {
@@ -1668,14 +1716,15 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item disabled",
+              "className": "page-item disabled",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
                   "tabindex": "-1",
                   "aria-disabled": "true",
+                  "onClick": "bound handlePrevious",
                   "children": "Previous"
                 },
                 "_store": {}
@@ -1685,10 +1734,11 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
                 "tabindex": "-1",
                 "aria-disabled": "true",
+                "onClick": "bound handlePrevious",
                 "children": "Previous"
               },
               "rendered": "Previous"
@@ -1696,7 +1746,7 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
           },
           "type": "li",
           "props": {
-            "class": "page-item disabled"
+            "className": "page-item disabled"
           },
           "children": [
             {
@@ -1704,20 +1754,22 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
                 "nodeType": "host",
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
                   "tabindex": "-1",
                   "aria-disabled": "true",
+                  "onClick": "bound handlePrevious",
                   "children": "Previous"
                 },
                 "rendered": "Previous"
               },
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
                 "tabindex": "-1",
-                "aria-disabled": "true"
+                "aria-disabled": "true",
+                "onClick": "bound handlePrevious"
               },
               "children": [
                 "Previous"
@@ -1730,13 +1782,14 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item",
+              "className": "page-item",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "1"
+                  "onClick": "onClick",
+                  "children": 1
                 },
                 "_store": {}
               }
@@ -1745,16 +1798,17 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "1"
+                "onClick": "onClick",
+                "children": 1
               },
-              "rendered": "1"
+              "rendered": 1
             }
           },
           "type": "li",
           "props": {
-            "class": "page-item"
+            "className": "page-item"
           },
           "children": [
             {
@@ -1762,19 +1816,21 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
                 "nodeType": "host",
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "1"
+                  "onClick": "onClick",
+                  "children": 1
                 },
-                "rendered": "1"
+                "rendered": 1
               },
               "type": "a",
               "props": {
-                "class": "page-link",
-                "href": "#"
+                "className": "page-link",
+                "href": "#",
+                "onClick": "onClick"
               },
               "children": [
-                "1"
+                1
               ]
             }
           ]
@@ -1784,13 +1840,14 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item",
+              "className": "page-item",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "2"
+                  "onClick": "onClick",
+                  "children": 2
                 },
                 "_store": {}
               }
@@ -1799,16 +1856,17 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "2"
+                "onClick": "onClick",
+                "children": 2
               },
-              "rendered": "2"
+              "rendered": 2
             }
           },
           "type": "li",
           "props": {
-            "class": "page-item"
+            "className": "page-item"
           },
           "children": [
             {
@@ -1816,19 +1874,21 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
                 "nodeType": "host",
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "2"
+                  "onClick": "onClick",
+                  "children": 2
                 },
-                "rendered": "2"
+                "rendered": 2
               },
               "type": "a",
               "props": {
-                "class": "page-link",
-                "href": "#"
+                "className": "page-link",
+                "href": "#",
+                "onClick": "onClick"
               },
               "children": [
-                "2"
+                2
               ]
             }
           ]
@@ -1838,13 +1898,14 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item",
+              "className": "page-item",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "3"
+                  "onClick": "onClick",
+                  "children": 3
                 },
                 "_store": {}
               }
@@ -1853,16 +1914,17 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "3"
+                "onClick": "onClick",
+                "children": 3
               },
-              "rendered": "3"
+              "rendered": 3
             }
           },
           "type": "li",
           "props": {
-            "class": "page-item"
+            "className": "page-item"
           },
           "children": [
             {
@@ -1870,19 +1932,21 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
                 "nodeType": "host",
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "3"
+                  "onClick": "onClick",
+                  "children": 3
                 },
-                "rendered": "3"
+                "rendered": 3
               },
               "type": "a",
               "props": {
-                "class": "page-link",
-                "href": "#"
+                "className": "page-link",
+                "href": "#",
+                "onClick": "onClick"
               },
               "children": [
-                "3"
+                3
               ]
             }
           ]
@@ -1892,13 +1956,14 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item",
+              "className": "page-item",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "4"
+                  "onClick": "onClick",
+                  "children": 4
                 },
                 "_store": {}
               }
@@ -1907,16 +1972,17 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
-                "children": "4"
+                "onClick": "onClick",
+                "children": 4
               },
-              "rendered": "4"
+              "rendered": 4
             }
           },
           "type": "li",
           "props": {
-            "class": "page-item"
+            "className": "page-item"
           },
           "children": [
             {
@@ -1924,19 +1990,21 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
                 "nodeType": "host",
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
-                  "children": "4"
+                  "onClick": "onClick",
+                  "children": 4
                 },
-                "rendered": "4"
+                "rendered": 4
               },
               "type": "a",
               "props": {
-                "class": "page-link",
-                "href": "#"
+                "className": "page-link",
+                "href": "#",
+                "onClick": "onClick"
               },
               "children": [
-                "4"
+                4
               ]
             }
           ]
@@ -1946,12 +2014,13 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
             "nodeType": "host",
             "type": "li",
             "props": {
-              "class": "page-item",
+              "className": "page-item disabled",
               "children": {
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
+                  "onClick": "bound handleNext",
                   "children": "Next"
                 },
                 "_store": {}
@@ -1961,8 +2030,9 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
               "nodeType": "host",
               "type": "a",
               "props": {
-                "class": "page-link",
+                "className": "page-link",
                 "href": "#",
+                "onClick": "bound handleNext",
                 "children": "Next"
               },
               "rendered": "Next"
@@ -1970,7 +2040,7 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
           },
           "type": "li",
           "props": {
-            "class": "page-item"
+            "className": "page-item disabled"
           },
           "children": [
             {
@@ -1978,16 +2048,18 @@ exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Sear
                 "nodeType": "host",
                 "type": "a",
                 "props": {
-                  "class": "page-link",
+                  "className": "page-link",
                   "href": "#",
+                  "onClick": "bound handleNext",
                   "children": "Next"
                 },
                 "rendered": "Next"
               },
               "type": "a",
               "props": {
-                "class": "page-link",
-                "href": "#"
+                "className": "page-link",
+                "href": "#",
+                "onClick": "bound handleNext"
               },
               "children": [
                 "Next"
