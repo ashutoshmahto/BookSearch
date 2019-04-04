@@ -12,7 +12,7 @@ module.exports = {
       {
         use: "babel-loader",
         test: /\.js|.jsx$/,
-        exclude: /node_modules/
+        exclude: [/node_modules/, path.resolve(__dirname, "**/*.test.js")]
       },
       {
         test: /\.css$/,

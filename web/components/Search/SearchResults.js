@@ -5,7 +5,7 @@ import BookTile from "./BookTile";
 import Pagination from "./Pagination";
 
 const SearchResults = props => {
-  const { isSearching, searchResult, getBookDetails } = props;
+  const { isSearching, searchResult, getBookDetails, search } = props;
   if (isSearching) {
     return (
       <div>
@@ -24,24 +24,38 @@ const SearchResults = props => {
   );
 
   const formattedSearchResult = rawSearchResult && formatData(rawSearchResult);
-  const booksList = pathOr([], "results.work", formattedSearchResult);
-
+  let booksList = pathOr(null, "results.work", formattedSearchResult);
+  /* When there is one result, result be an object */
+  if (!Array.isArray(booksList)) {
+    booksList = booksList ? [booksList] : [];
+  }
   if (booksList.length) {
+    const currentPageNum =
+      Math.floor(Number(formattedSearchResult["results-start"]) / 20) + 1;
+
+    const resultStart = formattedSearchResult["results-start"];
+    const resultEnd = formattedSearchResult["results-end"];
+    const totalResults = formattedSearchResult["total-results"];
+    const query = formattedSearchResult["query"];
+    const queryTime = formattedSearchResult["query-time-seconds"];
     return (
-      <div>
-        <h3>{`Showing ${formattedSearchResult["results-start"]} to ${
-          formattedSearchResult["results-end"]
-        } of ${formattedSearchResult["total-results"]} titles for "${
-          formattedSearchResult["query"]
-        }" (results in ${formattedSearchResult["query-time-seconds"]}s)`}</h3>
-        <div>
+      <div className="search-results">
+        <h3>
+          {`Showing ${resultStart} to ${resultEnd} of ${totalResults} titles for "${query}" (results in ${queryTime}s)`}
+        </h3>
+        <div className="book-tile-wrapper">
           {booksList.map(item => {
             return <BookTile getBookDetails={getBookDetails} {...item} />;
           })}
         </div>
+
         <Pagination
-          totalResults={formattedSearchResult["total-results"]}
-          currentPage={formattedSearchResult["results-start"]}
+          totalResults={Number(totalResults)}
+          pageStart={Number(resultStart)}
+          pageEnd={Number(resultEnd)}
+          currentPage={currentPageNum}
+          search={search}
+          searchQuery={query}
         />
       </div>
     );

@@ -7,10 +7,14 @@ import SearchResults from "../../components/Search/SearchResults";
 
 export const Search = props => {
   return (
-    <div>
-      <SearchComponent {...props} />
-      <SearchResults {...props} />
-    </div>
+    <React.Fragment>
+      <div className="row">
+        <SearchComponent {...props} />
+      </div>
+      <div className="row">
+        <SearchResults {...props} />
+      </div>
+    </React.Fragment>
   );
 };
 
@@ -25,8 +29,8 @@ export const mapStateToProps = state => {
 
 export const mapDispatchToProps = dispatch => {
   return {
-    search: query => {
-      dispatch(getSearchResults(query));
+    search: (query, page) => {
+      dispatch(getSearchResults(query, page));
     },
     getBookDetails: id => {
       dispatch(getBookDetailsById(id));

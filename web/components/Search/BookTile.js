@@ -22,21 +22,17 @@ class BookTile extends React.PureComponent {
     } = this.props;
 
     return (
-      <div className="bookTile">
-        <div className="imageWrapper">
+      <div className="book-tile">
+        <div className="book-image">
           <img src={`${book.image_url}`} />
         </div>
-        <div className="detailWrapper">
-          <p className="bookTitle">
+        <div className="book-info">
+          <h5>
             <a id={book.id} href="/book" onClick={this.handleClick}>
               {book.title}
             </a>
-          </p>
-          <p>Written By: {book.author.name}</p>
-          <p>
-            Published On:
-            {`${publicationDay}-${publicationMonth}-${publicationYear}`}
-          </p>
+          </h5>
+          <h6>{book.author.name}</h6>
         </div>
       </div>
     );

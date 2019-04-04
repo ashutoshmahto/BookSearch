@@ -1,0 +1,2002 @@
+exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Search/test/Pagination.test.js/should render component correctly(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "nav",
+    "props": {
+      "aria-label": "Book Search pagination",
+      "children": {
+        "type": "ul",
+        "props": {
+          "class": "pagination justify-content-center",
+          "children": [
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item disabled",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "tabindex": "-1",
+                    "aria-disabled": "true",
+                    "children": "Previous"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "1"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "2"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "3"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "4"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "Next"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            }
+          ]
+        },
+        "_store": {}
+      }
+    },
+    "rendered": {
+      "nodeType": "host",
+      "type": "ul",
+      "props": {
+        "class": "pagination justify-content-center",
+        "children": [
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item disabled",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "tabindex": "-1",
+                  "aria-disabled": "true",
+                  "children": "Previous"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          },
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "1"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          },
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "2"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          },
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "3"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          },
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "4"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          },
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "Next"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          }
+        ]
+      },
+      "rendered": [
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item disabled",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "tabindex": "-1",
+                "aria-disabled": "true",
+                "children": "Previous"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "tabindex": "-1",
+              "aria-disabled": "true",
+              "children": "Previous"
+            },
+            "rendered": "Previous"
+          }
+        },
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "1"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "children": "1"
+            },
+            "rendered": "1"
+          }
+        },
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "2"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "children": "2"
+            },
+            "rendered": "2"
+          }
+        },
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "3"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "children": "3"
+            },
+            "rendered": "3"
+          }
+        },
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "4"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "children": "4"
+            },
+            "rendered": "4"
+          }
+        },
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "Next"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "children": "Next"
+            },
+            "rendered": "Next"
+          }
+        }
+      ]
+    }
+  },
+  "type": "nav",
+  "props": {
+    "aria-label": "Book Search pagination"
+  },
+  "children": [
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "ul",
+        "props": {
+          "class": "pagination justify-content-center",
+          "children": [
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item disabled",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "tabindex": "-1",
+                    "aria-disabled": "true",
+                    "children": "Previous"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "1"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "2"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "3"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "4"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "Next"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            }
+          ]
+        },
+        "rendered": [
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item disabled",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "tabindex": "-1",
+                  "aria-disabled": "true",
+                  "children": "Previous"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "tabindex": "-1",
+                "aria-disabled": "true",
+                "children": "Previous"
+              },
+              "rendered": "Previous"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "1"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "1"
+              },
+              "rendered": "1"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "2"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "2"
+              },
+              "rendered": "2"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "3"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "3"
+              },
+              "rendered": "3"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "4"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "4"
+              },
+              "rendered": "4"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "Next"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "Next"
+              },
+              "rendered": "Next"
+            }
+          }
+        ]
+      },
+      "type": "ul",
+      "props": {
+        "class": "pagination justify-content-center"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item disabled",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "tabindex": "-1",
+                  "aria-disabled": "true",
+                  "children": "Previous"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "tabindex": "-1",
+                "aria-disabled": "true",
+                "children": "Previous"
+              },
+              "rendered": "Previous"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item disabled"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "tabindex": "-1",
+                  "aria-disabled": "true",
+                  "children": "Previous"
+                },
+                "rendered": "Previous"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "tabindex": "-1",
+                "aria-disabled": "true"
+              },
+              "children": [
+                "Previous"
+              ]
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "1"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "1"
+              },
+              "rendered": "1"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "1"
+                },
+                "rendered": "1"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#"
+              },
+              "children": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "2"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "2"
+              },
+              "rendered": "2"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "2"
+                },
+                "rendered": "2"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#"
+              },
+              "children": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "3"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "3"
+              },
+              "rendered": "3"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "3"
+                },
+                "rendered": "3"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#"
+              },
+              "children": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "4"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "4"
+              },
+              "rendered": "4"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "4"
+                },
+                "rendered": "4"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#"
+              },
+              "children": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "Next"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "Next"
+              },
+              "rendered": "Next"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "Next"
+                },
+                "rendered": "Next"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#"
+              },
+              "children": [
+                "Next"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+exports["/Users/ashmahto/LearningAndPractice/Node/booksearch/web/components/Search/tests/Pagination.test.js/should render component correctly(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "nav",
+    "props": {
+      "aria-label": "Book Search pagination",
+      "children": {
+        "type": "ul",
+        "props": {
+          "class": "pagination justify-content-center",
+          "children": [
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item disabled",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "tabindex": "-1",
+                    "aria-disabled": "true",
+                    "children": "Previous"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "1"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "2"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "3"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "4"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "Next"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            }
+          ]
+        },
+        "_store": {}
+      }
+    },
+    "rendered": {
+      "nodeType": "host",
+      "type": "ul",
+      "props": {
+        "class": "pagination justify-content-center",
+        "children": [
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item disabled",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "tabindex": "-1",
+                  "aria-disabled": "true",
+                  "children": "Previous"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          },
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "1"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          },
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "2"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          },
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "3"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          },
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "4"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          },
+          {
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "Next"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          }
+        ]
+      },
+      "rendered": [
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item disabled",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "tabindex": "-1",
+                "aria-disabled": "true",
+                "children": "Previous"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "tabindex": "-1",
+              "aria-disabled": "true",
+              "children": "Previous"
+            },
+            "rendered": "Previous"
+          }
+        },
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "1"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "children": "1"
+            },
+            "rendered": "1"
+          }
+        },
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "2"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "children": "2"
+            },
+            "rendered": "2"
+          }
+        },
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "3"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "children": "3"
+            },
+            "rendered": "3"
+          }
+        },
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "4"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "children": "4"
+            },
+            "rendered": "4"
+          }
+        },
+        {
+          "nodeType": "host",
+          "type": "li",
+          "props": {
+            "class": "page-item",
+            "children": {
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "Next"
+              },
+              "_store": {}
+            }
+          },
+          "rendered": {
+            "nodeType": "host",
+            "type": "a",
+            "props": {
+              "class": "page-link",
+              "href": "#",
+              "children": "Next"
+            },
+            "rendered": "Next"
+          }
+        }
+      ]
+    }
+  },
+  "type": "nav",
+  "props": {
+    "aria-label": "Book Search pagination"
+  },
+  "children": [
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "ul",
+        "props": {
+          "class": "pagination justify-content-center",
+          "children": [
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item disabled",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "tabindex": "-1",
+                    "aria-disabled": "true",
+                    "children": "Previous"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "1"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "2"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "3"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "4"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            },
+            {
+              "type": "li",
+              "props": {
+                "class": "page-item",
+                "children": {
+                  "type": "a",
+                  "props": {
+                    "class": "page-link",
+                    "href": "#",
+                    "children": "Next"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            }
+          ]
+        },
+        "rendered": [
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item disabled",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "tabindex": "-1",
+                  "aria-disabled": "true",
+                  "children": "Previous"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "tabindex": "-1",
+                "aria-disabled": "true",
+                "children": "Previous"
+              },
+              "rendered": "Previous"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "1"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "1"
+              },
+              "rendered": "1"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "2"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "2"
+              },
+              "rendered": "2"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "3"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "3"
+              },
+              "rendered": "3"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "4"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "4"
+              },
+              "rendered": "4"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "Next"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "Next"
+              },
+              "rendered": "Next"
+            }
+          }
+        ]
+      },
+      "type": "ul",
+      "props": {
+        "class": "pagination justify-content-center"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item disabled",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "tabindex": "-1",
+                  "aria-disabled": "true",
+                  "children": "Previous"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "tabindex": "-1",
+                "aria-disabled": "true",
+                "children": "Previous"
+              },
+              "rendered": "Previous"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item disabled"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "tabindex": "-1",
+                  "aria-disabled": "true",
+                  "children": "Previous"
+                },
+                "rendered": "Previous"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "tabindex": "-1",
+                "aria-disabled": "true"
+              },
+              "children": [
+                "Previous"
+              ]
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "1"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "1"
+              },
+              "rendered": "1"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "1"
+                },
+                "rendered": "1"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#"
+              },
+              "children": [
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "2"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "2"
+              },
+              "rendered": "2"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "2"
+                },
+                "rendered": "2"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#"
+              },
+              "children": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "3"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "3"
+              },
+              "rendered": "3"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "3"
+                },
+                "rendered": "3"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#"
+              },
+              "children": [
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "4"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "4"
+              },
+              "rendered": "4"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "4"
+                },
+                "rendered": "4"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#"
+              },
+              "children": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "li",
+            "props": {
+              "class": "page-item",
+              "children": {
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "Next"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#",
+                "children": "Next"
+              },
+              "rendered": "Next"
+            }
+          },
+          "type": "li",
+          "props": {
+            "class": "page-item"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "a",
+                "props": {
+                  "class": "page-link",
+                  "href": "#",
+                  "children": "Next"
+                },
+                "rendered": "Next"
+              },
+              "type": "a",
+              "props": {
+                "class": "page-link",
+                "href": "#"
+              },
+              "children": [
+                "Next"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+

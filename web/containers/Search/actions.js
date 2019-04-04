@@ -32,10 +32,10 @@ export const getSearchResultError = error => {
  * Method to dipatch actions after server response - thunk
  * @param {*} searchKey
  */
-export const getSearchResults = searchKey => {
+export const getSearchResults = (searchKey, page) => {
   return dispatch => {
     dispatch(searchBook());
-    return getSearchResultFromApi(searchKey).then(
+    return getSearchResultFromApi(searchKey, page).then(
       result => dispatch(getSearchResultSuccess(result)),
       error => dispatch(getSearchResultError(error))
     );
@@ -46,11 +46,12 @@ export const getSearchResults = searchKey => {
  * Method to initiate server request
  * @param {*} searchKey
  */
-export const getSearchResultFromApi = searchKey => {
+export const getSearchResultFromApi = (searchKey, page = 1) => {
   return makeServerRequest({
     url: "/search",
     params: {
-      q: encodeURI(searchKey)
+      q: encodeURI(searchKey),
+      page
     }
   });
 };

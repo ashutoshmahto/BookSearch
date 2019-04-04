@@ -63,8 +63,8 @@ app.get("/", function(req, res) {
 });
 
 app.get("/search", (req, res) => {
-  const { q: query } = req.query;
-  const url = `${endpoint}/search/index.xml?q=${query}&key=${key}`;
+  const { q: query, page } = req.query;
+  const url = `${endpoint}/search/index.xml?q=${query}&key=${key}&page=${page}`;
   makeApiRequest(url, res);
 });
 
