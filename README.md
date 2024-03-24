@@ -53,3 +53,5 @@ To get it running:
 - Restructuring the UI and better view
 - Error and Exception Handling
 - Add Unit Test Framework and test cases
+
+This is the last line of documentation.
